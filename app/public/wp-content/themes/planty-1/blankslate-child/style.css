@@ -1,0 +1,190 @@
+/*
+Theme Name: BlankSlate Child
+Theme URI: https://github.com/tidythemes/blankslate
+Template: blankslate
+Author: TidyThemes
+Author URI: https://github.com/tidythemes
+Description: Donations: https://calmestghost.com/donate. BlankSlate is the definitive WordPress boilerplate starter theme. We've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, no programmer comments, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability and no intrusive visual CSS styles have been added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https://github.com/tidythemes/blankslate/issues. Thank you.
+Tags: accessibility-ready,one-column,two-columns,custom-menu,featured-images,microformats,sticky-post,threaded-comments,translation-ready
+Version: 2023.1681576151
+Updated: 2023-04-15 16:29:11
+
+*/
+
+body {
+    max-width: 1440px;
+
+    font-family: "syne";
+
+}
+
+
+.header {
+    height: auto;
+    width: 100%;
+}
+
+.header,
+.nav {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Réduire la taille du logo */
+
+    
+    /* Réorganiser le menu */
+    .header{
+      display: block;
+      flex-direction: column;
+      width: 100%;
+    }
+    .site-logo {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        padding-top: 1em;
+        padding-bottom: 20px;
+    }
+
+    .header,.nav {
+        gap: 4px;
+    }
+    
+    #ordermenu {
+        width: auto;
+    }
+
+    }
+  
+/*logo */
+.site-logo {
+    width: 100%;
+    height: auto;
+    padding-left: 37px;
+
+}
+.site-logo img {
+    max-width: 191px;
+    height: auto;
+}
+
+
+
+
+/* Nav */
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    white-space: nowrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 100%;
+}
+nav a:hover {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+  
+}
+
+/* Boutton nav*/
+
+#ordermenu  {
+    background-color:#DC9F96 ;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: "syne";
+    padding: 30px;
+    font-size: 1em;
+    width: 236px;
+    text-align: center;
+  }
+#ordermenu a {
+    color: white;
+}
+
+#ordermenu:hover {
+    background-color: #C02E44 ;
+}
+
+/* Footer*/
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 2%;
+
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Form */
+
+.input-cont {
+    display: flex;
+    margin-top: 1em;
+  }
+  
+  .fruit-input {
+    border-radius: 5px 0 0 5px;
+    border: none;
+    width: 51px;
+    text-align: center;
+    padding: 19px 4px;
+  }
+  
+  .buttons-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 391px;
+    margin: auto;
+  }
+  .modify-btns {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modify-btns button {
+    background-color: #dc9f96;
+    border: none;
+    color: white;
+    padding: 6px 9px;
+    cursor: pointer;
+  }
+  
+  .modify-btns .btn-plus {
+    border-radius: 0 5px 0 0;
+    border-bottom: 1px white solid;
+  }
+  
+  .btn-mois {
+    border-radius: 0 0 5px 0;
+  }
+  
+  .btn-ok {
+    background-color: #e0b9b4;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    padding: 1.5em;
+    min-width: 100px;
+    color: white;
+    cursor: pointer;
+  }
+  

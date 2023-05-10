@@ -1,0 +1,95 @@
+/* disposition des images et bouttons */
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin-left: 292px ;
+  margin-right: 288px ;
+}
+
+
+.wpr-pricing-table-icon img, img {
+  max-width: 100%;
+}
+
+
+
+
+/* Rajout de l'élement + et - et css des bouttons */
+.input-controller {
+  max-width: 192px;
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.input-cont {
+  display: flex;
+  margin-top: 1em;
+}
+
+.fruit-input {
+  border-radius: 5px 0 0 5px;
+  border: none;
+  width: 51px;
+  text-align: center;
+  padding: 19px 4px;
+}
+
+.buttons-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modify-btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.modify-btns button {
+  background-color: #dc9f96;
+  border: none;
+  color: white;
+  padding: 6px 9px;
+  cursor: pointer;
+}
+
+.modify-btns .btn-plus {
+  border-radius: 0 5px 0 0;
+  border-bottom: 1px white solid;
+}
+
+.btn-mois {
+  border-radius: 0 0 5px 0;
+}
+
+.btn-ok {
+  background-color: #e0b9b4;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1em;
+  padding: 1.5em;
+  min-width: 100px;
+  color: white;
+  cursor: pointer;
+}
+
+
+/* Page css */
+
+h3 {
+  position: absolute;
+  top: 20px;
+
+}
+
+                                                                                                                    
+                                                                                                                                                            
