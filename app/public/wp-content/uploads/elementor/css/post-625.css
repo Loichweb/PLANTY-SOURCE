@@ -1,0 +1,396 @@
+.elementor-625 .elementor-element.elementor-element-ec65a14{margin-top:47px;margin-bottom:0px;}.elementor-625 .elementor-element.elementor-element-003d492{text-align:center;}.elementor-625 .elementor-element.elementor-element-003d492 .elementor-heading-title{color:#FFFFFF;font-family:"Syne", Sans-serif;font-size:28px;font-weight:800;}.elementor-625 .elementor-element.elementor-element-981b819{--divider-border-style:solid;--divider-color:#FFFFFF;--divider-border-width:1px;}.elementor-625 .elementor-element.elementor-element-981b819 .elementor-divider-separator{width:100%;}.elementor-625 .elementor-element.elementor-element-981b819 .elementor-divider{padding-top:15px;padding-bottom:15px;}.elementor-625 .elementor-element.elementor-element-4f0028a{text-align:left;}.elementor-625 .elementor-element.elementor-element-4f0028a .elementor-heading-title{color:#FFFFFF;font-family:"Syne", Sans-serif;font-size:28px;font-weight:700;}.elementor-625 .elementor-element.elementor-element-7fbf2b8{text-align:center;}.elementor-625 .elementor-element.elementor-element-7fbf2b8 .elementor-heading-title{color:#FFFFFF;font-family:"Syne", Sans-serif;font-size:20px;font-weight:800;}.elementor-625 .elementor-element.elementor-element-7fbf2b8 > .elementor-widget-container{margin:-108px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-625 .elementor-element.elementor-element-ecbe9ae{margin-top:-40px;margin-bottom:0px;}.elementor-625 .elementor-element.elementor-element-9893f53 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-625 .elementor-element.elementor-element-1894160{text-align:center;}.elementor-625 .elementor-element.elementor-element-1894160 .elementor-heading-title{color:#FFFFFF;font-family:"Syne", Sans-serif;font-size:20px;font-weight:800;}.elementor-625 .elementor-element.elementor-element-1894160 > .elementor-widget-container{margin:-120px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-625 .elementor-element.elementor-element-6fe2f99{margin-top:-40px;margin-bottom:0px;}.elementor-625 .elementor-element.elementor-element-1d5e719 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-625 .elementor-element.elementor-element-75c8a20{text-align:center;}.elementor-625 .elementor-element.elementor-element-75c8a20 .elementor-heading-title{color:#FFFFFF;font-family:"Syne", Sans-serif;font-size:20px;font-weight:800;}.elementor-625 .elementor-element.elementor-element-75c8a20 > .elementor-widget-container{margin:-120px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-625 .elementor-element.elementor-element-d19e62d{margin-top:-40px;margin-bottom:0px;}.elementor-625 .elementor-element.elementor-element-16ae3e8 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-625 .elementor-element.elementor-element-70fbbc4{text-align:center;}.elementor-625 .elementor-element.elementor-element-70fbbc4 .elementor-heading-title{color:#FFFFFF;font-family:"Syne", Sans-serif;font-size:20px;font-weight:800;}.elementor-625 .elementor-element.elementor-element-70fbbc4 > .elementor-widget-container{margin:-120px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-625 .elementor-element.elementor-element-a2fa69b{margin-top:-40px;margin-bottom:0px;}.elementor-625 .elementor-element.elementor-element-e1fad83 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-625 .elementor-element.elementor-element-2e56812 > .elementor-element-populated{margin:17px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;}body.elementor-page-625:not(.elementor-motion-effects-element-type-background), body.elementor-page-625 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#3B8E46;}@media(max-width:767px){.elementor-625 .elementor-element.elementor-element-75c8a20 > .elementor-widget-container{margin:-150px 0px 0px 0px;}}/* Start custom CSS for html, class: .elementor-element-9893f53 */.input-cont {
+  display: flex;
+  margin-top: 1em;
+}
+
+.fruit-input {
+  border-radius: 5px 0 0 5px;
+  border: none;
+  width: 51px;
+  text-align: center;
+}
+
+.buttons-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modify-btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.modify-btns button {
+  background-color: #dc9f96;
+  border: none;
+  color: white;
+  padding: 6px 9px;
+  cursor: pointer;
+}
+
+.modify-btns .btn-plus {
+  border-radius: 0 5px 0 0;
+  border-bottom: 1px white solid;
+}
+
+.btn-mois {
+  border-radius: 0 0 5px 0;
+}
+
+.btn-ok {
+  background-color: #e0b9b4;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1em;
+  padding: 1.5em;
+  min-width: 100px;
+  color: white;
+  cursor: pointer;
+}/* End custom CSS */
+/* Start custom CSS for html, class: .elementor-element-9893f53 */.input-cont {
+  display: flex;
+  margin-top: 1em;
+}
+
+.fruit-input {
+  border-radius: 5px 0 0 5px;
+  border: none;
+  width: 51px;
+  text-align: center;
+
+}
+
+.buttons-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modify-btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.modify-btns button {
+  background-color: #dc9f96;
+  border: none;
+  color: white;
+  padding: 6px 9px;
+  cursor: pointer;
+}
+
+.modify-btns .btn-plus {
+  border-radius: 0 5px 0 0;
+  border-bottom: 1px white solid;
+}
+
+.btn-mois {
+  border-radius: 0 0 5px 0;
+}
+
+.btn-ok {
+  background-color: #e0b9b4;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1em;
+  padding: 1.5em;
+  min-width: 100px;
+  color: white;
+  cursor: pointer;
+}/* End custom CSS */
+/* Start custom CSS for html, class: .elementor-element-1d5e719 */.input-cont {
+  display: flex;
+  margin-top: 1em;
+}
+
+.fruit-input {
+  border-radius: 5px 0 0 5px;
+  border: none;
+  width: 51px;
+  text-align: center;
+}
+
+.buttons-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modify-btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.modify-btns button {
+  background-color: #dc9f96;
+  border: none;
+  color: white;
+  padding: 6px 9px;
+  cursor: pointer;
+}
+
+.modify-btns .btn-plus {
+  border-radius: 0 5px 0 0;
+  border-bottom: 1px white solid;
+}
+
+.btn-mois {
+  border-radius: 0 0 5px 0;
+}
+
+.btn-ok {
+  background-color: #e0b9b4;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1em;
+  padding: 1.5em;
+  min-width: 100px;
+  color: white;
+  cursor: pointer;
+}/* End custom CSS */
+/* Start custom CSS for html, class: .elementor-element-1d5e719 */.input-cont {
+  display: flex;
+  margin-top: 1em;
+}
+
+.fruit-input {
+  border-radius: 5px 0 0 5px;
+  border: none;
+  width: 51px;
+  text-align: center;
+
+}
+
+.buttons-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modify-btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.modify-btns button {
+  background-color: #dc9f96;
+  border: none;
+  color: white;
+  padding: 6px 9px;
+  cursor: pointer;
+}
+
+.modify-btns .btn-plus {
+  border-radius: 0 5px 0 0;
+  border-bottom: 1px white solid;
+}
+
+.btn-mois {
+  border-radius: 0 0 5px 0;
+}
+
+.btn-ok {
+  background-color: #e0b9b4;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1em;
+  padding: 1.5em;
+  min-width: 100px;
+  color: white;
+  cursor: pointer;
+}/* End custom CSS */
+/* Start custom CSS for html, class: .elementor-element-16ae3e8 */.input-cont {
+  display: flex;
+  margin-top: 1em;
+}
+
+.fruit-input {
+  border-radius: 5px 0 0 5px;
+  border: none;
+  width: 51px;
+  text-align: center;
+}
+
+.buttons-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modify-btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.modify-btns button {
+  background-color: #dc9f96;
+  border: none;
+  color: white;
+  padding: 6px 9px;
+  cursor: pointer;
+}
+
+.modify-btns .btn-plus {
+  border-radius: 0 5px 0 0;
+  border-bottom: 1px white solid;
+}
+
+.btn-mois {
+  border-radius: 0 0 5px 0;
+}
+
+.btn-ok {
+  background-color: #e0b9b4;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1em;
+  padding: 1.5em;
+  min-width: 100px;
+  color: white;
+  cursor: pointer;
+}/* End custom CSS */
+/* Start custom CSS for html, class: .elementor-element-16ae3e8 */.input-cont {
+  display: flex;
+  margin-top: 1em;
+}
+
+.fruit-input {
+  border-radius: 5px 0 0 5px;
+  border: none;
+  width: 51px;
+  text-align: center;
+
+}
+
+.buttons-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modify-btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.modify-btns button {
+  background-color: #dc9f96;
+  border: none;
+  color: white;
+  padding: 6px 9px;
+  cursor: pointer;
+}
+
+.modify-btns .btn-plus {
+  border-radius: 0 5px 0 0;
+  border-bottom: 1px white solid;
+}
+
+.btn-mois {
+  border-radius: 0 0 5px 0;
+}
+
+.btn-ok {
+  background-color: #e0b9b4;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1em;
+  padding: 1.5em;
+  min-width: 100px;
+  color: white;
+  cursor: pointer;
+}/* End custom CSS */
+/* Start custom CSS for html, class: .elementor-element-e1fad83 */.input-cont {
+  display: flex;
+  margin-top: 1em;
+}
+
+.fruit-input {
+  border-radius: 5px 0 0 5px;
+  border: none;
+  width: 51px;
+  text-align: center;
+}
+
+.buttons-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modify-btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.modify-btns button {
+  background-color: #dc9f96;
+  border: none;
+  color: white;
+  padding: 6px 9px;
+  cursor: pointer;
+}
+
+.modify-btns .btn-plus {
+  border-radius: 0 5px 0 0;
+  border-bottom: 1px white solid;
+}
+
+.btn-mois {
+  border-radius: 0 0 5px 0;
+}
+
+.btn-ok {
+  background-color: #e0b9b4;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1em;
+  padding: 1.5em;
+  min-width: 100px;
+  color: white;
+  cursor: pointer;
+}/* End custom CSS */
+/* Start custom CSS for html, class: .elementor-element-e1fad83 */.input-cont {
+  display: flex;
+  margin-top: 1em;
+}
+
+.fruit-input {
+  border-radius: 5px 0 0 5px;
+  border: none;
+  width: 51px;
+  text-align: center;
+
+}
+
+.buttons-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modify-btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.modify-btns button {
+  background-color: #dc9f96;
+  border: none;
+  color: white;
+  padding: 6px 9px;
+  cursor: pointer;
+}
+
+.modify-btns .btn-plus {
+  border-radius: 0 5px 0 0;
+  border-bottom: 1px white solid;
+}
+
+.btn-mois {
+  border-radius: 0 0 5px 0;
+}
+
+.btn-ok {
+  background-color: #e0b9b4;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1em;
+  padding: 1.5em;
+  min-width: 100px;
+  color: white;
+  cursor: pointer;
+}/* End custom CSS */

@@ -1,0 +1,143 @@
+/*
+Theme Name: Royal Elementor Kit Child
+Theme URI: https://royal-elementor-addons.com/royal-elementor-kit
+Template: royal-elementor-kit
+Author: WP Royal
+Author URI: https://royal-elementor-addons.com/
+Description: Truly all in one Solution For Elementor Lovers. 30+ Elementor Templates KIT, 50+ Professional Elementor Widgets, Elementor theme builder, Elementor Popup Builder, Elementor Premade blocks and many other cool features like Sticky Header, Particle effects, parallax backgrounds and many other elementor addons. Simple Install the theme, click on - Get Started with Templates Kit button and that's it. Very easy to use even for WordPress beginners or professionals. All In one Elementor Solution which outranks all other Elementor themes and Elementor addons. ########### TEMPLATES INCLUDED: Elementor Blog Template, Elementor Magazine Blog Template, Elementor Food Blog Template, Elementor Travel Blog Template, Elementor Portfolio Template, Elementor NFT Template, Elementor Pizza Restaurant Template, Elementor Travel Blogger &amp; Influencer Template, Elementor Cybersecurity Template, Elementor Photographer Portfolio Template, Elementor Crypto Currency Template, Elementor Skin Care Template, Elementor Lawyer Template, Elementor Medical Template, Elementor Digital Agency Template, Elementor Drone Template, Elementro Architecture Template, Elementor Food Delivery Template, Elementor Construction Template, Elementor IT Technology Template, Elementor Real Estate Template, Elementor Restaurant Template, Elementor Wine Bar &amp; Restaurant Template, Elementor Wedding Template &amp; other beautiful elementor business templates. All these templates are created with elementor page builder. Theme Demo Page: https://royal-elementor-addons.com/royal-elementor-kit/
+Tags: blog,e-commerce,one-column,custom-background,custom-colors,full-width-template,custom-menu,custom-logo,featured-images,sticky-post,theme-options,threaded-comments,translation-ready
+Version: 1.0.100.1682668397
+Updated: 2023-04-28 07:53:17
+
+*/
+
+body {
+    max-width: 1440px;
+
+    font-family: "syne";
+
+}
+
+
+.header {
+    height: auto;
+    width: 100%;
+}
+
+.header,
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    background-color:white;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Réduire la taille du logo */
+
+    
+    /* Réorganiser le menu */
+    .header{
+      display: block;
+      flex-direction: column;
+      width: 100%;
+    }
+    .site-logo {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        padding-top: 1em;
+        padding-bottom: 20px;
+        padding-left: 2px;
+    }
+
+    .header,.nav {
+        gap: 4px;
+    }
+    .nav ul{
+        padding-left: 2px;
+    }
+
+    }
+  
+/*logo */
+.site-logo {
+    width: 100%;
+    height: auto;
+    padding-left: 37px;
+
+}
+.site-logo img {
+    max-width: 191px;
+    height: auto;
+}
+
+
+
+
+/* Nav */
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    white-space: nowrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 100%;
+}
+nav a:hover {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+  
+}
+
+/* Boutton nav*/
+#ordermenu {
+    width: 236px;
+
+}
+
+#ordermenu button {
+    background-color:#DC9F96 ;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: "syne";
+    width: 100%;
+    padding: 30px;
+    font-size: 1em;
+    border-radius: 0px
+  }
+
+#ordermenu button:hover {
+    background-color: #C02E44 ;
+}
+
+/* Footer*/
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 2%;
+
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    content: none;
+}
+.menu-item {
+    list-style-type: none;
+  }
+
+  /* form */ 
+
+

@@ -1,0 +1,51 @@
+/*
+Theme Name: Zakra Child
+Theme URI: https://zakratheme.com/
+Template: zakra
+Author: ThemeGrill
+Author URI: https://themegrill.com
+Description: Zakra is flexible, fast, lightweight and modern multipurpose theme that comes with many starter free sites (currently 10+ free starter sites and more will be added later) that you can use to make your site beautiful and professional. Check all the starter sites at https://zakratheme.com/demos. Suitable for personal blog, portfolio, WooCommerce stores, business websites and niche-based sites (like Cafe, Spa, Charity, Yoga, Wedding, Dentist, Education etc) as well. Works with Elementor plus other major page builders so you can create any layout you want. The theme is responsive, Gutenberg compatible, SEO friendly, translation ready and major WordPress plugins compatible.
+Tags: one-column,two-columns,left-sidebar,right-sidebar,custom-background,custom-colors,custom-logo,featured-images,footer-widgets,full-width-template,theme-options,threaded-comments,translation-ready,blog,news,e-commerce,rtl-language-support
+Version: 2.2.0.1681638926
+Updated: 2023-04-16 09:55:26
+
+*/
+
+.elementor {
+    margin: 0;
+}
+
+img.custom-logo {
+    width: 200px;
+    margin-left: 37px;
+    
+}
+
+.tg-header-container {
+    max-width: 100%;
+    margin-right: 0;
+
+}
+
+.tg-site-header-bottom {
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.tg-primary-menu .tg-header-button-wrap a {
+    background-color: #DC9F96;
+    padding: 30px 61px;
+    
+}
+.tg-primary-menu .tg-header-button-wrap {
+    margin : 0;
+}
+.tg-primary-menu > div > ul{
+    font-family: 'Syne';
+    font-size: 16px;  
+    line-height: 19px;  
+}
+
+.tg-primary-menu .tg-header-button-wrap a:hover {
+    background-color: #C02E44 ;
+}

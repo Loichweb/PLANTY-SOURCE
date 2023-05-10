@@ -1,0 +1,57 @@
+2023-05-08T09:04:04+00:00 CRITICAL Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/metform/core/entries/action.php:810
+Stack trace:
+#0 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/metform/core/entries/action.php(810): json_decode(Array)
+#1 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/metform/core/forms/action.php(226): MetForm\Core\Entries\Action->get_fields(18)
+#2 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/metform/traits/quiz-control.php(21): MetForm\Core\Forms\Action->get_all_data(18)
+#3 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/metform/widgets/text/text.php(43): Elementor\MetForm_Input_Text->get_form_type()
+#4 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2329): Elementor\MetForm_Input_Text->register_controls()
+#5 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#6 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#7 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/widgets.php(368): Elementor\Widget_Base->get_stack(false)
+#8 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#9 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/elementor/core/common/modules/ajax/module.php(175): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 /Users/loichant/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#11 /Users/loichant/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#12 /Users/loichant/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /Users/loichant/Local Sites/planty/app/public/wp-admin/admin-ajax.php(188): do_action('wp_ajax_element...')
+#14 {main}
+  thrown dans /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/metform/core/entries/action.php à la ligne 810
+
+2023-05-08T09:06:05+00:00 CRITICAL Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/metform/core/entries/action.php:810
+Stack trace:
+#0 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/metform/core/entries/action.php(810): json_decode(Array)
+#1 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/metform/core/forms/action.php(226): MetForm\Core\Entries\Action->get_fields(18)
+#2 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/metform/traits/quiz-control.php(21): MetForm\Core\Forms\Action->get_all_data(18)
+#3 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/metform/widgets/text/text.php(43): Elementor\MetForm_Input_Text->get_form_type()
+#4 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2329): Elementor\MetForm_Input_Text->register_controls()
+#5 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#6 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#7 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/widgets.php(368): Elementor\Widget_Base->get_stack(false)
+#8 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#9 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/elementor/core/common/modules/ajax/module.php(175): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 /Users/loichant/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#11 /Users/loichant/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#12 /Users/loichant/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /Users/loichant/Local Sites/planty/app/public/wp-admin/admin-ajax.php(188): do_action('wp_ajax_element...')
+#14 {main}
+  thrown dans /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/metform/core/entries/action.php à la ligne 810
+
+2023-05-08T09:08:29+00:00 CRITICAL Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/metform/core/entries/action.php:810
+Stack trace:
+#0 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/metform/core/entries/action.php(810): json_decode(Array)
+#1 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/metform/core/forms/action.php(226): MetForm\Core\Entries\Action->get_fields(18)
+#2 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/metform/traits/quiz-control.php(21): MetForm\Core\Forms\Action->get_all_data(18)
+#3 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/metform/widgets/text/text.php(43): Elementor\MetForm_Input_Text->get_form_type()
+#4 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2329): Elementor\MetForm_Input_Text->register_controls()
+#5 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#6 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#7 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/widgets.php(368): Elementor\Widget_Base->get_stack(false)
+#8 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#9 /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/elementor/core/common/modules/ajax/module.php(175): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 /Users/loichant/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#11 /Users/loichant/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#12 /Users/loichant/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /Users/loichant/Local Sites/planty/app/public/wp-admin/admin-ajax.php(188): do_action('wp_ajax_element...')
+#14 {main}
+  thrown dans /Users/loichant/Local Sites/planty/app/public/wp-content/plugins/metform/core/entries/action.php à la ligne 810
+
